@@ -1,0 +1,11 @@
+{
+    "Name": "Usefull admin commands",
+    "Description": "simpel console admin commands",
+    "Version": "1.0.0",
+    "Reason": "full setup",
+    "Authors": [ "iamadeadpixel" ],
+  "HasVeniceEXT": true,
+  "Dependencies": {
+    "veniceext": "^1.0.0"
+  }
+}
