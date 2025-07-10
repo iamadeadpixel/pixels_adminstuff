@@ -40,6 +40,5 @@ Default variables what NOT should be reset on reload or next map load..
 	announced = {}
 	fetchplayerguid = {}
 	fetchplayername = {}
---	s_timeban = 86400 -- 24 hours
-	s_timeban = 90 -- 90 seconds
+	s_timeban = 86400 -- 24 hours
 	s_roundban = 2 -- 2 round
