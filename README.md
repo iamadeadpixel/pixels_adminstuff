@@ -22,7 +22,7 @@ How to use.
 
 .rban <part of name> (this wil roundban a player with a default message for 2 rounds)
 .rban <part of name> <message> (this wil roundban a player with a custom message for 2 rounds)
-
+#
 
 This is usefull if u want to change the timeban length, and roundban round.
 Default: 1 day time ban
