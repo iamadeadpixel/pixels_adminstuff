@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 -- Spaghetti code by iamadeadpixel
 
 Events:Subscribe('Level:LoadingInfo', function(screenInfo)
@@ -39,8 +30,8 @@ end
 
 function reboot_timer(player)
 	if trigger_nuke == false then
-	print ("Starting the nuke timer for team 1")
-	ChatManager:SendMessage("Starting the nuke timer for team 1")
+	print ("Starting the reboot timer")
+	ChatManager:SendMessage("Starting the reboot timer")
 	print ("Setting the timer data") 
 	nuke_countdown = 10
 	start_nuke_timer_all = true
