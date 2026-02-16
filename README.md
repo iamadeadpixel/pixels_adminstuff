@@ -11,6 +11,7 @@ content from selected:
 if you have 4 vu players on your account
 place them there
 or, add more trusted players in it.
+(Not recomended, add only FULLY trusted players)
 
 Commands:
 How to use.
@@ -22,7 +23,7 @@ How to use.
 
 .rban <part of name> (this wil roundban a player with a default message for 2 rounds)
 .rban <part of name> <message> (this wil roundban a player with a custom message for 2 rounds)
-#
+
 
 This is usefull if u want to change the timeban length, and roundban round.
 Default: 1 day time ban
@@ -74,6 +75,7 @@ For Rush / squad rush only
 .win us (Selecting the american team as winner, and end round)
 .win ru (Selecting the russian team as winner, and end round)
 
+.swap all (starts a countdown timer, and swap out both teams to the other sides)
 
 Comment: Even bots will be moved !
 Comment: Depending on game mode
