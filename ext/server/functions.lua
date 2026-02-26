@@ -157,6 +157,24 @@ end
 
 -- -------------
 
+function swap_2ru(player)
+		if player.teamId == 2 then
+	ChatManager:SendMessage("You are already on the Russian team", player)
+			  print("You are already on the Russian team");
+		else
+	ChatManager:SendMessage("Moving you to the Russian team", player)
+			  print("Moving you to the Russian team");
+  	fetchplayerteam1[player.name] = nil
+	fetchplayerteam2[player.name] = nil
+	fetchplayerteam3[player.name] = nil
+	fetchplayerteam4[player.name] = nil
+	RCON:SendCommand('admin.movePlayer', {player.name, "2", "1", "true"})
+	fetchplayerteam1[player.name] = player.name
+end
+end
+
+-- -------------
+
 function nextmap()
 	ChatManager:SendMessage("Running the next map")
 			  print("Running the next map");
